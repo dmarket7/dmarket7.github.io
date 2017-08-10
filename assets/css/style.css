@@ -5,7 +5,8 @@ body {
 }
 
 footer {
-
+	height: 100px;
+    background-color: #666666;
 }
 
 #container {
@@ -26,10 +27,12 @@ footer {
 
 #name-box {
 	background-color: #4aaaa5;
-	width: 180px;
+	width: 200px;
 	padding: 25px;
 	margin: 0px;
+	font-size: 28px;
 	font-family: "Times New Roman";
+	font-weight: bold;
 	color: white;
 	text-align: center;
 	float:left;
@@ -42,9 +45,12 @@ footer {
 }
 
 #body-container {
-	background-color: #FEF5E7;
+	background-color: #F3F1DC;
 	margin: auto;
 	overflow: auto;
+	border-color: #cccccc;
+	border-style: solid;
+    border-width: 2px 0px 0px 0px;
 }
 
 .clearfix {
@@ -56,10 +62,14 @@ footer {
 	float: left;
 	background-color: white;
 	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 #article-header {
 	font-family: "Times New Roman";
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 50px;
 	color: #4aaaa5;
 	margin-left: 20px;
 	
@@ -67,8 +77,9 @@ footer {
 
 #article-container {
 	overflow: auto;
-	line-height: 24px;
-	margin: 20px;
+	line-height: 28px;
+	padding-top: 20px;
+	margin: 0px 20px 20px 20px;
 	border-style: solid;
     border-width: 3px 0px 0px 0px;
     border-color: #dddddd;
@@ -77,9 +88,31 @@ footer {
 #image-wrap {
 	float: left;
 	width: 200px;
-	height: 150px;
-	margin-right: 20px;
-	margin-top: 20px;
+	height: 200px;
+	margin-right: 15px;
+}
+
+.portfolio-image {
+	width: 220px;
+	height: 180px;
+}
+
+.portfolio-image-wrap {
+	float: left;
+	position: relative;
+	padding: 20px;
+}
+
+.image-title {
+	bottom: 10px;
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	position: absolute;
+	bottom: 50px;
 }
 
 #contact-bar {
@@ -92,10 +125,32 @@ footer {
 #contact-header {
 	padding: 10px;
 	font-family: "Times New Roman";
+	font-size: 20px;
+	font-weight: bold;
 	color: #4aaaa5;
 	text-align: center;
 }
 
 #social-box {
 	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #dddddd;
+}
+
+.social-image {
+	width: 70px;
+	height: 70px;
+	padding-right: 3px;
+}
+
+#footer-container {
+	margin: auto;
+	line-height: 100px;
+	text-align: center;
+	border-color: #4aaaa5;
+	border-style: solid;
+    border-width: 5px 0px 0px 0px;
 }
